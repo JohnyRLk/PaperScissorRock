@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R-P-S Game</title>
+    <link rel="stylesheet" href="app.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Rock Paper Scissors</h1>
+    <h2 id="result" style="color:#B22222">Try your luck ! </h2>
+    <div class="container">
+        <div class="section">
+            <div class="info">
+                <h3>You :</h3><span id="playerScore">0</span>
+            </div>
+            <div class="show">
+                <img id="playerShow" src="playerShow" style="display:none;"/>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="info">
+                <h3>Computer :</h3><span id="computerScore">0</span>
+            </div>
+            <div class="show computer">
+                <img id="computerShow" src="computerShow" style="display:none;"/>
+            </div>
+        </div>
+    </div>
+    <h2  id="result2" style="color:#2F4F4F;">Choose One !</h2>
+    <div class="selection">
+        <button  class="btn"id="rock"></button>
+        <button  class="btn" id="papper"></button>
+        <button  class="btn" id="scissors"></button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: 800;
+  margin: 15px 0;
+}
+.container {
+  display: flex;
+}
+.container .section {
+  width: 350px;
+  margin: 20px 50px;
+}
+.section .info {
+  background: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+}
+.info span,
+.info h3 {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0px 10px;
+  font-family: "Oxygen", sans-serif;
+  color: white;
+}
+.show {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  background: #5f9ea0;
+  height: 220px;
+}
+h2 {
+  font-family: "Oxygen", sans-serif;
+  font-weight: bold;
+  padding: 5px;
+}
+.selection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 350px;
+  height: 100px;
+}
+.btn{
+  margin: 0 20px;
+  padding: 25px;
+  width: 150px;
+  height: 80px;
+  border-radius: 15px;
+  border: 1px solid #ffffff;
+  outline: none;
+  cursor: pointer;
+  background: #000000;
+}
+.btn:focus{
+    background-color:#DC143C;
+    border:1px solid #000000;
+}
+#rock {
+  background-image: url("rock.svg");
+  background-size: center;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#papper {
+  background-image: url("papper.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#scissors {
+  background-image: url("scissors.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
